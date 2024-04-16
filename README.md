@@ -12,18 +12,21 @@
 ## 모델 설명
 ### LeNet5 (Number of parameters : 61,706)
 ![Lenet5](https://github.com/moon2y/MNIST-Classification/blob/main/plot/321547232-f8d850d2-0329-47b8-b528-cce4a6177682.png)
+- Parameter : 1×6×5×5+6 + 6×16×5×5+16 + 16×120×5×5+120 + 120×84+84 + 84×10+10 = 61,706
 - ReLU
 
 ### LeNet5_regularized (Number of parameters :61990)
 - dropout : 0.5
 - Batch Normalization applied
-- ReLU
+- Parameter : Lenet5 Parameter + Batch Normalization num_features(142) * 2 = 61990
+- - ReLU
 
 ### CustomMLP (Number of parameters : 62930)
 - Number of Layers : 3
   - Layer 1 : img_size (1, 32, 32) -> (1, 32*32) * 60
   - Layer 2 : 60 * 20
   - Layer 3 : 20 * 10
+- Parameter : input_size×60+60+60×20+20+20×10+10 = 62930 
 - ReLU
 
 ## 실험결과
