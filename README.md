@@ -11,7 +11,7 @@
 
 ## 모델 설명
 ### LeNet5 (Number of parameters : 61,706)
-![Lenet5](https://github.com/Chayuho/MNIST_classification/assets/94342487/f8d850d2-0329-47b8-b528-cce4a6177682)
+![Lenet5](https://github.com/moon2y/MNIST-Classification/blob/main/plot/321547232-f8d850d2-0329-47b8-b528-cce4a6177682.png)
 - ReLU
 
 ### LeNet5_regularized (Number of parameters :61990)
@@ -28,16 +28,22 @@
 
 ## 실험결과
 ### LeNet5
-![NeNet5_train_loss](https://github.com/Chayuho/MNIST_classification/assets/94342487/f30ecf4d-bf72-4bee-9ad8-3059bdf12467s=0.3)
-![NeNet5_train_acc](https://github.com/Chayuho/MNIST_classification/assets/94342487/ac3438e4-8830-4db9-824c-af833821c059)
-![NeNet5_test_loss](https://github.com/Chayuho/MNIST_classification/assets/94342487/06e16218-7f63-40a8-a0ba-58feecee890e)
-![NeNet5_test_acc](https://github.com/Chayuho/MNIST_classification/assets/94342487/564789d0-2d18-4b53-9c40-c65479973cbc)
+![LeNet5_train_loss](https://github.com/moon2y/MNIST-Classification/blob/main/plot/plotLeNet5_train_loss.png)
+![LeNet5_train_acc](https://github.com/moon2y/MNIST-Classification/blob/main/plot/plotLeNet5_train_acc.png)
+![LeNet5_test_loss](https://github.com/moon2y/MNIST-Classification/blob/main/plot/plotLeNet5_test_loss.png)
+![LeNet5_test_acc](https://github.com/moon2y/MNIST-Classification/blob/main/plot/plotLeNet5_test_acc.png)
+
+### LeNet5_regularized
+![LeNet5_regularized_train_loss](https://github.com/moon2y/MNIST-Classification/blob/main/plot/plotLeNet5R_train_loss.png)
+![LeNet5_regularized_train_acc](https://github.com/moon2y/MNIST-Classification/blob/main/plot/plotLeNet5R_train_acc.png)
+![LeNet5_regularized_test_loss](https://github.com/moon2y/MNIST-Classification/blob/main/plot/plotLeNet5R_test_loss.png)
+![LeNet5_regularized_test_acc](https://github.com/moon2y/MNIST-Classification/blob/main/plot/plotLeNet5R_test_acc.png)
 
 ### Custom MLP
-![CustomMLP_train_loss](https://github.com/Chayuho/MNIST_classification/assets/94342487/0faf4433-53fd-4977-9994-71298bc85105)
-![CustomMLP_train_acc](https://github.com/Chayuho/MNIST_classification/assets/94342487/bb8fd77e-608e-47f6-9eaa-bbfa707eb9e6)
-![CustomMLP_test_loss](https://github.com/Chayuho/MNIST_classification/assets/94342487/5535032e-82aa-4de5-a670-953928801dda)
-![CustomMLP_test_acc](https://github.com/Chayuho/MNIST_classification/assets/94342487/0e776def-3fc3-413a-a361-575a1f1de70a)
+![CustomMLP_train_loss(https://github.com/moon2y/MNIST-Classification/blob/main/plot/plotMLP_train_loss.png)
+![CustomMLP_train_acc](https://github.com/moon2y/MNIST-Classification/blob/main/plot/plotMLP_train_acc.png)
+![CustomMLP_test_loss](https://github.com/moon2y/MNIST-Classification/blob/main/plot/plotMLP_test_loss.png)
+![CustomMLP_test_acc](https://github.com/moon2y/MNIST-Classification/blob/main/plot/plotMLP_test_acc.png)
 
 ### Test Loss & Accuracy
 |                    | Loss      | Accuracy  |
