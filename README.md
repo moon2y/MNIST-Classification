@@ -1,6 +1,5 @@
 # MNIST-Classification
 인공신경망과 딥러닝 과제
-MNIST 손글씨 숫자를 분류하는 신경망 모델 구현
   1. LeNet5
   2. Lenet5_regularized
   3. Custom MLP
@@ -41,7 +40,7 @@ MNIST 손글씨 숫자를 분류하는 신경망 모델 구현
 ![CustomMLP_test_acc](https://github.com/Chayuho/MNIST_classification/assets/94342487/0e776def-3fc3-413a-a361-575a1f1de70a)
 
 ### Test Loss & Accuracy
-                     | Loss      | Accuracy  |
+|                    | Loss      | Accuracy  |
 |--------------------|-----------|-----------|
 | LeNet5             | 0.125     | 0.977     |
 | LeNet5_regularized | 0.115     | 0.981     |
