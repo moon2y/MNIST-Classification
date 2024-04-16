@@ -40,7 +40,7 @@
 ![LeNet5_regularized_test_acc](https://github.com/moon2y/MNIST-Classification/blob/main/plot/plotLeNet5R_test_acc.png)
 
 ### Custom MLP
-![CustomMLP_train_loss(https://github.com/moon2y/MNIST-Classification/blob/main/plot/plotMLP_train_loss.png)
+![CustomMLP_train_loss](https://github.com/moon2y/MNIST-Classification/blob/main/plot/plotMLP_train_loss.png)
 ![CustomMLP_train_acc](https://github.com/moon2y/MNIST-Classification/blob/main/plot/plotMLP_train_acc.png)
 ![CustomMLP_test_loss](https://github.com/moon2y/MNIST-Classification/blob/main/plot/plotMLP_test_loss.png)
 ![CustomMLP_test_acc](https://github.com/moon2y/MNIST-Classification/blob/main/plot/plotMLP_test_acc.png)
